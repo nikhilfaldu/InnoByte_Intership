@@ -3,6 +3,9 @@
 KingKhush Guest House is a responsive and interactive website developed in React, designed to provide an immersive experience for potential guests. This website features various pages showcasing the guest house’s amenities, rooms, gallery, and contact information, as well as direct links for booking inquiries. Built with a modern UI/UX, it’s fully responsive for desktop and mobile, offering users a seamless navigation experience.
 
 ## Project Overview
+
+![Screenshot (489)](https://github.com/user-attachments/assets/750ed922-f90c-42c8-b034-3d7016d887a8)
+
 The KingKhush Guest House website consists of several pages, each crafted with unique layouts, animations, and responsive designs. The sidebar navigation provides easy access to different sections of the website. Key features include a gallery showcasing the guest house and surrounding areas, detailed room information with booking options, contact information, and social media integration.
 
 ## Features
