@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# KingKhush Guest House Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+KingKhush Guest House is a responsive and interactive website developed in React, designed to provide an immersive experience for potential guests. This website features various pages showcasing the guest house’s amenities, rooms, gallery, and contact information, as well as direct links for booking inquiries. Built with a modern UI/UX, it’s fully responsive for desktop and mobile, offering users a seamless navigation experience.
 
-## Available Scripts
+# Project Overview
+The KingKhush Guest House website consists of several pages, each crafted with unique layouts, animations, and responsive designs. The sidebar navigation provides easy access to different sections of the website. Key features include a gallery showcasing the guest house and surrounding areas, detailed room information with booking options, contact information, and social media integration.
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+Home Page: A welcoming landing page with smooth animations that load elements from the bottom, featuring a background image to set the guest house's ambiance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About Page: Provides a detailed description of the guest house, including its location, services, and contact details, with an image and a "Book Now" button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Services Page: Divided into three sections: two image containers (left and right) and a text container in the center. Lists services with icons, descriptions, and bold headlines, styled with background images.
 
-### `npm test`
+Rooms Page: Displays different room options with images, descriptions, and starting prices. Includes two room cards with "Book Now" buttons linking to WhatsApp for inquiries, and an image gallery for each room.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Gallery Page: A responsive grid layout showcasing images of the guest house and surroundings, adjusting image arrangements for mobile screens.
 
-### `npm run build`
+Contact Page: Displays contact information in a styled card with location, email, and phone details, along with social media links (Facebook, Twitter, LinkedIn) that redirect to the Home page and Instagram linking to the guest house profile. Also includes a contact form for inquiries, with shadow and color accents for a professional look.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React.js: Frontend library for building the user interface.
+CSS: Custom styling with CSS, including animations and media queries.
+Responsive Design: Uses flexible units (em, rem, %, vh, vw) and media queries for optimal display on all screen sizes.
+Icons and Images: Integrated local images and icons for a richer user experience.
