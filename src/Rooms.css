@@ -1,0 +1,137 @@
+/* Rooms.css */
+
+.rooms-page {
+    padding: 2% 5%;
+    
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .rooms-header {
+    margin-bottom: 3%;
+  }
+  
+  .small-title {
+    font-size: 1.2rem; /* Smaller title size */
+    color: #646464; /* Gray color */
+    position: absolute;
+    left: 26%;
+    top: 0%;
+    
+  }
+  
+  .small-title::after {
+    content: "";
+    display: inline-block;
+    width: 3rem; /* Adjust line length */
+    height: 0.15rem; /* Line thickness */
+    background-color: #e82574; /* Line color */
+    position: absolute;
+    top: 50%;
+    left: 115%;
+    transform: translateY(-50%);
+  }
+
+  .big-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    left: -3%;
+  }
+  
+  .rooms-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    justify-content: center;
+  }
+  
+  .room-card {
+    width: 40%;
+    height: 40%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2%;
+  }
+  
+  .image-section {
+    position: relative;
+    width: 100%;
+    height: 18rem;
+  }
+  
+  .room-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .button-overlay {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .overlay-button {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+  }
+  
+  .info-section {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .room-title {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+  }
+  
+  .room-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .room-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  span{
+    color: #2e2a2a;
+    font-weight: 700;
+  }
+  
+  .book-now-button {
+    padding: 0.8rem 1.2rem;
+    background-color: #e82574;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-button:hover {
+    background-color: #D6E825;
+  }
+  
+  @media (max-width: 768px) {
+    .rooms-cards {
+      flex-direction: column;
+    }
+  
+    .room-card {
+      width: 100%;
+    }
+  }
+  

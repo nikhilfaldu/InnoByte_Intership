@@ -1,0 +1,106 @@
+/* Home.css */
+
+body, html {
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Full height for body and html */
+     /* Prevent scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.home-container {
+    position: relative; /* Position relative to allow for absolute positioning of child elements */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    
+}
+
+.home-background {
+    position: absolute; /* Position absolute to fill the container */
+    top: -5%; /* Start from the top */
+    left: 0; /* Start from the left */
+    height: 120%; /* Make it taller than the viewport */
+    width: 100%; /* Fill the full width */
+    background-image: url('./images/ayodhya.webp'); /* Set background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    z-index: -1; /* Send the background behind other content */
+}
+
+.home-content {
+    position: absolute; /* Position content absolutely */
+    top: 50%; /* Center vertically */
+    left: 45%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    text-align: center; /* Center align text */
+    color: rgba(255, 255, 255, 0.8); /* Light color for text */
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: -6s;
+}
+
+@keyframes example {
+
+    75%  {top:80%;}
+    100% {top:50%;}
+}
+
+.text-container {
+    margin-bottom: 2rem; /* Space below the text */
+}
+
+.glass-text {
+    font-size: 1.5rem; /* Adjust font size */
+}
+
+.main-title {
+    font-size: 2.5rem; /* Title font size */
+    margin: 0.5rem 0; /* Margin around title */
+}
+
+.sub-title {
+    font-size: 2rem; /* Subtitle font size */
+    margin: 0.5rem 0; /* Margin around subtitle */
+}
+
+.highlight {
+    color: #e82574; /* Highlight color for "Guest House" */
+}
+
+.button-container {
+    position: absolute; /* Position absolutely */
+    bottom: 2rem; /* Position from the bottom */
+    left: 45%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust position to center */
+    animation-name: example01;
+    animation-duration: 8s;
+    animation-delay: -6s;
+}
+
+.button-background {
+    display: inline-block; /* Make the background a block to hold the link */
+}
+
+.book-now-button {
+    padding: 1rem 2rem; /* Button padding */
+    font-size: 1rem; /* Button font size */
+    color: white; /* Button text color */
+    background-color: #e82574; /* Button background color */
+    text-decoration: none; /* Remove underline from link */
+    border: none; /* Remove border */
+    border-radius: 0.5rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background */
+    display: inline-block; /* Ensure it behaves like a button */
+    text-align: center;
+}
+
+.book-now-button:hover {
+    background-color: #D6E825; /* Change background on hover */
+}
+
+@keyframes example01 {
+
+    75%  {top:120%;}
+    100% {top:88%;}
+}

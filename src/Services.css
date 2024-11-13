@@ -1,0 +1,86 @@
+/* Services.css */
+
+* {
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+  margin-left: -2.5%;
+}
+
+.services-container {
+  display: flex;
+  width: 100vw; /* Full width of viewport */
+  height: 100vh; /* Full height of viewport */
+  
+}
+
+.services-title::after {
+  content: "";
+  display: inline-block;
+  width: 3rem; /* Adjust line length */
+  height: 0.15rem; /* Line thickness */
+  background-color: #e82574; /* Line color */
+  position: absolute;
+  top: 24.3%;
+  right: 40%;
+  transform: translateY(-50%);
+}
+
+.services-left-image,
+.services-right-image {
+  width: 50vw; /* Half screen width */
+  height: 100vh; /* Full screen height */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem; /* Use rem for responsive padding */
+  background-color: white; /* Background color for content area */
+  width: 50vw; /* Center container width */
+  overflow-y: auto; /* Allow vertical scrolling if necessary */
+}
+
+.services-title {
+  font-size: 1.2rem; /* Smaller title size */
+  color: #646464; /* Gray color */
+  margin-bottom: 0.5rem; /* Space below the title */
+}
+
+.services-heading {
+  font-size: 2.5rem; /* Large heading size */
+  color: #333; /* Darker color for emphasis */
+  margin-bottom: 1.5rem; /* Space below heading */
+  font-weight: bold; /* Bold font weight */
+}
+
+.services-list {
+  display: flex; /* Use flexbox for list items */
+  flex-direction: column; /* Stack items vertically */
+  gap: 1.5rem; /* Space between items */
+}
+
+.service-item {
+  display: flex; /* Flexbox for item layout */
+  align-items: center; /* Center align items */
+  gap: 1rem; /* Space between icon and text */
+}
+
+.service-item img {
+  width: 2.5rem; /* Icon size */
+  height: 2.5rem; /* Keep square aspect ratio */
+}
+
+.service-item p {
+  font-size: 1.2rem; /* Text size for description */
+  color: #333; /* Text color */
+  margin: 0; /* Remove default margin */
+}

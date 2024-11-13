@@ -1,0 +1,81 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+  
+.about-image img {
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+}
+  
+.about-content {
+    max-width: 40rem;
+    text-align: left;
+}
+  
+.about-title {
+    font-size: 1.2rem;
+    color: #646464;
+    margin-bottom: 0.5rem;
+    position: relative; /* Needed for positioning the line */
+    padding-right: 1rem; /* Space between text and line */
+}
+
+.about-title::after {
+    content: "";
+    display: inline-block;
+    width: 3rem; /* Adjust line length */
+    height: 0.15rem; /* Line thickness */
+    background-color: #e82574; /* Line color */
+    position: absolute;
+    top: 50%;
+    right: 76%;
+    transform: translateY(-50%);
+}
+  
+.about-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    position: relative;
+}
+  
+.about-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.about-address {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3c00ff;
+    margin-bottom: 2rem;
+    position: relative;
+}
+ 
+.book-now-btn {
+    padding: 0.8rem 2rem;
+    background-color: #e82574;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.book-now-btn:hover {
+    background-color: #D6E825;
+}
